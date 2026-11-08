@@ -1,0 +1,1337 @@
+{
+  "products": [
+    {
+      "id": "prod-1794133054128",
+      "product_code": "SKJ007",
+      "name_en": "Festive Banarasi Katan Silk Set",
+      "name_hi": "त्योहारी बनारसी कातन सिल्क सेट",
+      "description_en": "",
+      "description_hi": "",
+      "category_id": "cat-silk",
+      "fabric_type": "Katan Silk",
+      "design_type": "Gold Zari Floral Weave",
+      "price_per_set": 5400,
+      "sarees_per_set": 6,
+      "available_sets": 20,
+      "minimum_order_sets": 1,
+      "is_active": true,
+      "main_image": "/images/skj002-main.svg",
+      "created_at": "2026-11-08T10:17:34.128Z",
+      "updated_at": "2026-11-08T10:17:34.128Z"
+    },
+    {
+      "id": "prod-001",
+      "product_code": "SKJ001",
+      "name_en": "Fancy Bandhani Printed Georgette Saree Set",
+      "name_hi": "फैंसी बांधनी प्रिंटेड जॉर्जेट साड़ी सेट",
+      "description_en": "Premium Georgette bandhani printed saree set with attractive zari border and running blouse piece. Highly popular fast-selling wholesale item for boutiques and retail counters.",
+      "description_hi": "प्रीमियम जॉर्जेट बांधनी प्रिंटेड साड़ी सेट आकर्षक ज़री बॉर्डर और रनिंग ब्लाउज के साथ। बुटीक और रीटेल दुकानों के लिए सबसे ज्यादा बिकने वाला थोक सेट।",
+      "category_id": "cat-printed",
+      "fabric_type": "Pure Georgette",
+      "design_type": "Traditional Bandhani Jaipuri Print",
+      "price_per_set": 3300,
+      "sarees_per_set": 6,
+      "available_sets": 25,
+      "minimum_order_sets": 1,
+      "is_active": true,
+      "main_image": "/images/skj001-main.svg",
+      "created_at": "2026-11-02T10:06:44.164Z",
+      "updated_at": "2026-11-08T10:06:44.164Z"
+    },
+    {
+      "id": "prod-002",
+      "product_code": "SKJ002",
+      "name_en": "Chanderi Silk Golden Zari Border Saree Set",
+      "name_hi": "चंदेरी सिल्क गोल्डन ज़री बॉर्डर साड़ी सेट",
+      "description_en": "Authentic Chanderi silk blend sarees featuring rich woven gold zari borders and rich pallu. Ideal for festive and party wear retail collections.",
+      "description_hi": "शुद्ध चंदेरी सिल्क ब्लेंड साड़ियां शानदार बुने हुए गोल्डन ज़री बॉर्डर और रिच पल्लू के साथ। त्योहार और पार्टी वियर के लिए उपयुक्त।",
+      "category_id": "cat-silk",
+      "fabric_type": "Chanderi Silk Blend",
+      "design_type": "Woven Gold Zari Border",
+      "price_per_set": 5200,
+      "sarees_per_set": 8,
+      "available_sets": 16,
+      "minimum_order_sets": 1,
+      "is_active": true,
+      "main_image": "/images/skj002-main.svg",
+      "created_at": "2026-11-03T10:06:44.170Z",
+      "updated_at": "2026-11-08T10:17:34.121Z"
+    },
+    {
+      "id": "prod-003",
+      "product_code": "SKJ003",
+      "name_en": "Daily Wear 100% Pure Cotton Printed Saree Set",
+      "name_hi": "डेली वियर 100% प्योर कॉटन प्रिंटेड साड़ी सेट",
+      "description_en": "All-day comfort pure cotton sarees with classic Bagru block prints. Breathable fabric, 100% colour fast guarantee. Perfect for daily wear demand.",
+      "description_hi": "आरामदायक प्योर सूती कॉटन साड़ियां क्लासिक बगरू ब्लॉक प्रिंट के साथ। टिकाऊ पक्का रंग, 100% गारंटी। रोजमर्रा की भारी मांग के लिए उत्तम।",
+      "category_id": "cat-cotton",
+      "fabric_type": "100% Pure Mulmul Cotton",
+      "design_type": "Bagru Block Floral Print",
+      "price_per_set": 4500,
+      "sarees_per_set": 10,
+      "available_sets": 30,
+      "minimum_order_sets": 1,
+      "is_active": true,
+      "main_image": "/images/skj003-main.svg",
+      "created_at": "2026-11-04T10:06:44.175Z",
+      "updated_at": "2026-11-08T10:06:44.175Z"
+    },
+    {
+      "id": "prod-004",
+      "product_code": "SKJ004",
+      "name_en": "Royal Banarasi Brocade Bridal Silk Saree Set",
+      "name_hi": "रॉयल बनारसी ब्रोकेड ब्राइडल सिल्क साड़ी सेट",
+      "description_en": "Heavy woven Banarasi brocade sarees with antique gold zari work and designer floral meenakari motifs. Royal wedding counter essential.",
+      "description_hi": "हैवी बुनाई वाली बनारसी ब्रोकेड साड़ियां विंटेज गोल्ड ज़री वर्क और मीनाकारी डिज़ाइन के साथ। शादी-ब्याह के ग्राहकों के लिए खास सेट।",
+      "category_id": "cat-designer",
+      "fabric_type": "Katan Silk Brocade",
+      "design_type": "Heavy Gold Zari Meenakari",
+      "price_per_set": 6800,
+      "sarees_per_set": 4,
+      "available_sets": 15,
+      "minimum_order_sets": 1,
+      "is_active": true,
+      "main_image": "/images/skj004-main.svg",
+      "created_at": "2026-11-05T10:06:44.181Z",
+      "updated_at": "2026-11-08T10:06:44.181Z"
+    },
+    {
+      "id": "prod-005",
+      "product_code": "SKJ005",
+      "name_en": "Dola Silk Foil Print Party Wear Saree Set",
+      "name_hi": "डोला सिल्क फॉयल प्रिंट पार्टी वियर साड़ी सेट",
+      "description_en": "Soft touch glossy Dola Silk sarees embellished with delicate metallic foil motifs, satin border and matching designer blouse. Ultra light and high margin item.",
+      "description_hi": "सॉफ्ट और चमकदार डोला सिल्क साड़ियां चमकीले फॉयल वर्क, सैटिन बॉर्डर और मैचिंग डिज़ाइनर ब्लाउज के साथ। पहनने में बेहद हल्की और आकर्षक।",
+      "category_id": "cat-party",
+      "fabric_type": "Soft Dola Silk",
+      "design_type": "Metallic Foil Print & Lace Border",
+      "price_per_set": 3900,
+      "sarees_per_set": 6,
+      "available_sets": 22,
+      "minimum_order_sets": 1,
+      "is_active": true,
+      "main_image": "/images/skj005-main.svg",
+      "created_at": "2026-11-06T10:06:44.184Z",
+      "updated_at": "2026-11-08T10:06:44.184Z"
+    },
+    {
+      "id": "prod-006",
+      "product_code": "SKJ006",
+      "name_en": "Maheshwari Handloom Zari Checks Saree Set",
+      "name_hi": "महेश्वरी हैंडलूम ज़री चेक साड़ी सेट",
+      "description_en": "Authentic Madhya Pradesh heritage Maheshwari cotton-silk handloom checks with reversible zari border. Direct wholesale pricing from Indore MT Cloth Market.",
+      "description_hi": "मध्य प्रदेश की प्रसिद्ध महेश्वरी कॉटन-सिल्क हैंडलूम चेक साड़ियां दोनों तरफा ज़री बॉर्डर के साथ। इंदौर एम.टी. क्लॉथ मार्केट का सीधा थोक भाव।",
+      "category_id": "cat-fancy",
+      "fabric_type": "Maheshwari Cotton Silk",
+      "design_type": "Traditional Handloom Reversible Checks",
+      "price_per_set": 4200,
+      "sarees_per_set": 6,
+      "available_sets": 20,
+      "minimum_order_sets": 1,
+      "is_active": true,
+      "main_image": "/images/skj006-main.svg",
+      "created_at": "2026-11-07T10:06:44.186Z",
+      "updated_at": "2026-11-08T10:06:44.186Z"
+    }
+  ],
+  "product_colours": [
+    {
+      "id": "col-SKJ001-1",
+      "product_id": "prod-001",
+      "colour_name_en": "Marwar Crimson Red",
+      "colour_name_hi": "मारवाड़ लाल",
+      "hex_code": "#C81D25",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj001-col-1.svg",
+      "display_order": 1
+    },
+    {
+      "id": "col-SKJ001-2",
+      "product_id": "prod-001",
+      "colour_name_en": "Royal Rani Pink",
+      "colour_name_hi": "शाही रानी गुलाबी",
+      "hex_code": "#E91E63",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj001-col-2.svg",
+      "display_order": 2
+    },
+    {
+      "id": "col-SKJ001-3",
+      "product_id": "prod-001",
+      "colour_name_en": "Peacock Royal Blue",
+      "colour_name_hi": "मयूर रॉयल ब्लू",
+      "hex_code": "#1A508B",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj001-col-3.svg",
+      "display_order": 3
+    },
+    {
+      "id": "col-SKJ001-4",
+      "product_id": "prod-001",
+      "colour_name_en": "Emerald Green",
+      "colour_name_hi": "पन्ना हरा",
+      "hex_code": "#1B5E20",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj001-col-4.svg",
+      "display_order": 4
+    },
+    {
+      "id": "col-SKJ001-5",
+      "product_id": "prod-001",
+      "colour_name_en": "Haldi Mustard Yellow",
+      "colour_name_hi": "हल्दी पीला",
+      "hex_code": "#F59E0B",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj001-col-5.svg",
+      "display_order": 5
+    },
+    {
+      "id": "col-SKJ001-6",
+      "product_id": "prod-001",
+      "colour_name_en": "Deep Violet Purple",
+      "colour_name_hi": "गहरा जामुनी बैंगनी",
+      "hex_code": "#6D28D9",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj001-col-6.svg",
+      "display_order": 6
+    },
+    {
+      "id": "col-SKJ002-1",
+      "product_id": "prod-002",
+      "colour_name_en": "Rich Wine Maroon",
+      "colour_name_hi": "वाइन महरून",
+      "hex_code": "#641E32",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj002-col-1.svg",
+      "display_order": 1
+    },
+    {
+      "id": "col-SKJ002-2",
+      "product_id": "prod-002",
+      "colour_name_en": "Dusty Peach Pink",
+      "colour_name_hi": "डस्टी पीच गुलाबी",
+      "hex_code": "#F472B6",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj002-col-2.svg",
+      "display_order": 2
+    },
+    {
+      "id": "col-SKJ002-3",
+      "product_id": "prod-002",
+      "colour_name_en": "Teal Turquoise Blue",
+      "colour_name_hi": "फ़िरोज़ी नीला",
+      "hex_code": "#0E7490",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj002-col-3.svg",
+      "display_order": 3
+    },
+    {
+      "id": "col-SKJ002-4",
+      "product_id": "prod-002",
+      "colour_name_en": "Bottle Olive Green",
+      "colour_name_hi": "बॉटल ग्रीन",
+      "hex_code": "#14532D",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj002-col-4.svg",
+      "display_order": 4
+    },
+    {
+      "id": "col-SKJ002-5",
+      "product_id": "prod-002",
+      "colour_name_en": "Bright Mango Yellow",
+      "colour_name_hi": "मैंगो पीला",
+      "hex_code": "#FBBF24",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj002-col-5.svg",
+      "display_order": 5
+    },
+    {
+      "id": "col-SKJ002-6",
+      "product_id": "prod-002",
+      "colour_name_en": "Lavender Lilac",
+      "colour_name_hi": "लैवेंडर जामुनी",
+      "hex_code": "#8B5CF6",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj002-col-6.svg",
+      "display_order": 6
+    },
+    {
+      "id": "col-SKJ002-7",
+      "product_id": "prod-002",
+      "colour_name_en": "Deep Navy Blue",
+      "colour_name_hi": "नेवी ब्लू",
+      "hex_code": "#1E3A8A",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj002-col-7.svg",
+      "display_order": 7
+    },
+    {
+      "id": "col-SKJ002-8",
+      "product_id": "prod-002",
+      "colour_name_en": "Sunset Coral Orange",
+      "colour_name_hi": "नारंगी संतरी",
+      "hex_code": "#EA580C",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj002-col-8.svg",
+      "display_order": 8
+    },
+    {
+      "id": "col-SKJ003-1",
+      "product_id": "prod-003",
+      "colour_name_en": "Brick Indigo Red",
+      "colour_name_hi": "ईंट लाल",
+      "hex_code": "#B91C1C",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj003-col-1.svg",
+      "display_order": 1
+    },
+    {
+      "id": "col-SKJ003-2",
+      "product_id": "prod-003",
+      "colour_name_en": "Indigo Block Navy",
+      "colour_name_hi": "इंडिगो नीला",
+      "hex_code": "#1E40AF",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj003-col-2.svg",
+      "display_order": 2
+    },
+    {
+      "id": "col-SKJ003-3",
+      "product_id": "prod-003",
+      "colour_name_en": "Forest Mint Green",
+      "colour_name_hi": "मिंट हरा",
+      "hex_code": "#047857",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj003-col-3.svg",
+      "display_order": 3
+    },
+    {
+      "id": "col-SKJ003-4",
+      "product_id": "prod-003",
+      "colour_name_en": "Mustard Gold Ochre",
+      "colour_name_hi": "हल्दी गेरुआ",
+      "hex_code": "#D97706",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj003-col-4.svg",
+      "display_order": 4
+    },
+    {
+      "id": "col-SKJ003-5",
+      "product_id": "prod-003",
+      "colour_name_en": "Charcoal Slate Grey",
+      "colour_name_hi": "स्लेट ग्रे",
+      "hex_code": "#4B5563",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj003-col-5.svg",
+      "display_order": 5
+    },
+    {
+      "id": "col-SKJ003-6",
+      "product_id": "prod-003",
+      "colour_name_en": "Rosewood Maroon",
+      "colour_name_hi": "रोज़वुड महरून",
+      "hex_code": "#881337",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj003-col-6.svg",
+      "display_order": 6
+    },
+    {
+      "id": "col-SKJ003-7",
+      "product_id": "prod-003",
+      "colour_name_en": "Pastel Sky Blue",
+      "colour_name_hi": "आसमानी नीला",
+      "hex_code": "#0284C7",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj003-col-7.svg",
+      "display_order": 7
+    },
+    {
+      "id": "col-SKJ003-8",
+      "product_id": "prod-003",
+      "colour_name_en": "Olive Mehendi Green",
+      "colour_name_hi": "मेहंदी हरा",
+      "hex_code": "#4D7C0F",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj003-col-8.svg",
+      "display_order": 8
+    },
+    {
+      "id": "col-SKJ003-9",
+      "product_id": "prod-003",
+      "colour_name_en": "Amber Rust Brown",
+      "colour_name_hi": "कत्थई भूरा",
+      "hex_code": "#78350F",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj003-col-9.svg",
+      "display_order": 9
+    },
+    {
+      "id": "col-SKJ003-10",
+      "product_id": "prod-003",
+      "colour_name_en": "Plum Berry Purple",
+      "colour_name_hi": "बेरी जामुनी",
+      "hex_code": "#701A75",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj003-col-10.svg",
+      "display_order": 10
+    },
+    {
+      "id": "col-SKJ004-1",
+      "product_id": "prod-004",
+      "colour_name_en": "Bridal Sindoor Red",
+      "colour_name_hi": "सिंदूरी दुल्हन लाल",
+      "hex_code": "#DC2626",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj004-col-1.svg",
+      "display_order": 1
+    },
+    {
+      "id": "col-SKJ004-2",
+      "product_id": "prod-004",
+      "colour_name_en": "Rani Magenta Pink",
+      "colour_name_hi": "रानी मजेंटा",
+      "hex_code": "#BE185D",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj004-col-2.svg",
+      "display_order": 2
+    },
+    {
+      "id": "col-SKJ004-3",
+      "product_id": "prod-004",
+      "colour_name_en": "Kashi Royal Violet",
+      "colour_name_hi": "काशी जामुनी",
+      "hex_code": "#581C87",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj004-col-3.svg",
+      "display_order": 3
+    },
+    {
+      "id": "col-SKJ004-4",
+      "product_id": "prod-004",
+      "colour_name_en": "Shahi Bottle Green",
+      "colour_name_hi": "शाही बॉटल ग्रीन",
+      "hex_code": "#064E3B",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj004-col-4.svg",
+      "display_order": 4
+    },
+    {
+      "id": "col-SKJ005-1",
+      "product_id": "prod-005",
+      "colour_name_en": "Cherry Ruby Red",
+      "colour_name_hi": "चेरी रूबी लाल",
+      "hex_code": "#991B1B",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj005-col-1.svg",
+      "display_order": 1
+    },
+    {
+      "id": "col-SKJ005-2",
+      "product_id": "prod-005",
+      "colour_name_en": "Baby Rose Pink",
+      "colour_name_hi": "गुलाबी रोज़",
+      "hex_code": "#DB2777",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj005-col-2.svg",
+      "display_order": 2
+    },
+    {
+      "id": "col-SKJ005-3",
+      "product_id": "prod-005",
+      "colour_name_en": "Midnight Cobalt Blue",
+      "colour_name_hi": "कोबाल्ट नीला",
+      "hex_code": "#1D4ED8",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj005-col-3.svg",
+      "display_order": 3
+    },
+    {
+      "id": "col-SKJ005-4",
+      "product_id": "prod-005",
+      "colour_name_en": "Pista Mint Green",
+      "colour_name_hi": "पिस्ता हरा",
+      "hex_code": "#10B981",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj005-col-4.svg",
+      "display_order": 4
+    },
+    {
+      "id": "col-SKJ005-5",
+      "product_id": "prod-005",
+      "colour_name_en": "Sunny Lemon Yellow",
+      "colour_name_hi": "लेमन पीला",
+      "hex_code": "#EAB308",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj005-col-5.svg",
+      "display_order": 5
+    },
+    {
+      "id": "col-SKJ005-6",
+      "product_id": "prod-005",
+      "colour_name_en": "Mauve Lavender Purple",
+      "colour_name_hi": "लैवेंडर बैंगनी",
+      "hex_code": "#7C3AED",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj005-col-6.svg",
+      "display_order": 6
+    },
+    {
+      "id": "col-SKJ006-1",
+      "product_id": "prod-006",
+      "colour_name_en": "Gulaal Crimson Red",
+      "colour_name_hi": "गुलाल लाल",
+      "hex_code": "#B91C1C",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj006-col-1.svg",
+      "display_order": 1
+    },
+    {
+      "id": "col-SKJ006-2",
+      "product_id": "prod-006",
+      "colour_name_en": "Surajmukhi Golden Yellow",
+      "colour_name_hi": "सूरजमुखी पीला",
+      "hex_code": "#D97706",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj006-col-2.svg",
+      "display_order": 2
+    },
+    {
+      "id": "col-SKJ006-3",
+      "product_id": "prod-006",
+      "colour_name_en": "Neelkanth Royal Blue",
+      "colour_name_hi": "नीलकंठ नीला",
+      "hex_code": "#1E40AF",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj006-col-3.svg",
+      "display_order": 3
+    },
+    {
+      "id": "col-SKJ006-4",
+      "product_id": "prod-006",
+      "colour_name_en": "Parrot Tota Green",
+      "colour_name_hi": "तोता हरा",
+      "hex_code": "#15803D",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj006-col-4.svg",
+      "display_order": 4
+    },
+    {
+      "id": "col-SKJ006-5",
+      "product_id": "prod-006",
+      "colour_name_en": "Kashmiri Rani Pink",
+      "colour_name_hi": "कश्मीरी रानी गुलाबी",
+      "hex_code": "#BE185D",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj006-col-5.svg",
+      "display_order": 5
+    },
+    {
+      "id": "col-SKJ006-6",
+      "product_id": "prod-006",
+      "colour_name_en": "Kesar Saffron Orange",
+      "colour_name_hi": "केसरिया संतरी",
+      "hex_code": "#C2410C",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj006-col-6.svg",
+      "display_order": 6
+    },
+    {
+      "id": "col-SKJ007-1-1794133054128",
+      "product_id": "prod-1794133054128",
+      "colour_name_en": "Rani Pink",
+      "colour_name_hi": "रानी गुलाबी",
+      "hex_code": "#EC4899",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj002-main.svg",
+      "display_order": 1
+    },
+    {
+      "id": "col-SKJ007-2-1794133054128",
+      "product_id": "prod-1794133054128",
+      "colour_name_en": "Royal Blue",
+      "colour_name_hi": "रॉयल ब्लू",
+      "hex_code": "#1D4ED8",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj002-main.svg",
+      "display_order": 2
+    },
+    {
+      "id": "col-SKJ007-3-1794133054128",
+      "product_id": "prod-1794133054128",
+      "colour_name_en": "Maroon",
+      "colour_name_hi": "महरून",
+      "hex_code": "#641E32",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj002-main.svg",
+      "display_order": 3
+    },
+    {
+      "id": "col-SKJ007-4-1794133054128",
+      "product_id": "prod-1794133054128",
+      "colour_name_en": "Emerald Green",
+      "colour_name_hi": "पन्ना हरा",
+      "hex_code": "#15803D",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj002-main.svg",
+      "display_order": 4
+    },
+    {
+      "id": "col-SKJ007-5-1794133054128",
+      "product_id": "prod-1794133054128",
+      "colour_name_en": "Mustard Yellow",
+      "colour_name_hi": "हल्दी पीला",
+      "hex_code": "#EAB308",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj002-main.svg",
+      "display_order": 5
+    },
+    {
+      "id": "col-SKJ007-6-1794133054128",
+      "product_id": "prod-1794133054128",
+      "colour_name_en": "Purple",
+      "colour_name_hi": "बैंगनी",
+      "hex_code": "#7E22CE",
+      "quantity_in_set": 1,
+      "colour_image_url": "/images/skj002-main.svg",
+      "display_order": 6
+    }
+  ],
+  "product_images": [
+    {
+      "id": "img-SKJ001-main",
+      "product_id": "prod-001",
+      "colour_id": null,
+      "image_url": "/images/skj001-main.svg",
+      "image_type": "main",
+      "display_order": 1,
+      "created_at": "2026-11-02T10:06:44.164Z"
+    },
+    {
+      "id": "img-SKJ001-col-1",
+      "product_id": "prod-001",
+      "colour_id": "col-SKJ001-1",
+      "image_url": "/images/skj001-col-1.svg",
+      "image_type": "colour",
+      "display_order": 2,
+      "created_at": "2026-11-02T10:06:44.164Z"
+    },
+    {
+      "id": "img-SKJ001-col-2",
+      "product_id": "prod-001",
+      "colour_id": "col-SKJ001-2",
+      "image_url": "/images/skj001-col-2.svg",
+      "image_type": "colour",
+      "display_order": 3,
+      "created_at": "2026-11-02T10:06:44.164Z"
+    },
+    {
+      "id": "img-SKJ001-col-3",
+      "product_id": "prod-001",
+      "colour_id": "col-SKJ001-3",
+      "image_url": "/images/skj001-col-3.svg",
+      "image_type": "colour",
+      "display_order": 4,
+      "created_at": "2026-11-02T10:06:44.164Z"
+    },
+    {
+      "id": "img-SKJ001-col-4",
+      "product_id": "prod-001",
+      "colour_id": "col-SKJ001-4",
+      "image_url": "/images/skj001-col-4.svg",
+      "image_type": "colour",
+      "display_order": 5,
+      "created_at": "2026-11-02T10:06:44.164Z"
+    },
+    {
+      "id": "img-SKJ001-col-5",
+      "product_id": "prod-001",
+      "colour_id": "col-SKJ001-5",
+      "image_url": "/images/skj001-col-5.svg",
+      "image_type": "colour",
+      "display_order": 6,
+      "created_at": "2026-11-02T10:06:44.164Z"
+    },
+    {
+      "id": "img-SKJ001-col-6",
+      "product_id": "prod-001",
+      "colour_id": "col-SKJ001-6",
+      "image_url": "/images/skj001-col-6.svg",
+      "image_type": "colour",
+      "display_order": 7,
+      "created_at": "2026-11-02T10:06:44.164Z"
+    },
+    {
+      "id": "img-SKJ002-main",
+      "product_id": "prod-002",
+      "colour_id": null,
+      "image_url": "/images/skj002-main.svg",
+      "image_type": "main",
+      "display_order": 1,
+      "created_at": "2026-11-03T10:06:44.170Z"
+    },
+    {
+      "id": "img-SKJ002-col-1",
+      "product_id": "prod-002",
+      "colour_id": "col-SKJ002-1",
+      "image_url": "/images/skj002-col-1.svg",
+      "image_type": "colour",
+      "display_order": 2,
+      "created_at": "2026-11-03T10:06:44.170Z"
+    },
+    {
+      "id": "img-SKJ002-col-2",
+      "product_id": "prod-002",
+      "colour_id": "col-SKJ002-2",
+      "image_url": "/images/skj002-col-2.svg",
+      "image_type": "colour",
+      "display_order": 3,
+      "created_at": "2026-11-03T10:06:44.170Z"
+    },
+    {
+      "id": "img-SKJ002-col-3",
+      "product_id": "prod-002",
+      "colour_id": "col-SKJ002-3",
+      "image_url": "/images/skj002-col-3.svg",
+      "image_type": "colour",
+      "display_order": 4,
+      "created_at": "2026-11-03T10:06:44.170Z"
+    },
+    {
+      "id": "img-SKJ002-col-4",
+      "product_id": "prod-002",
+      "colour_id": "col-SKJ002-4",
+      "image_url": "/images/skj002-col-4.svg",
+      "image_type": "colour",
+      "display_order": 5,
+      "created_at": "2026-11-03T10:06:44.170Z"
+    },
+    {
+      "id": "img-SKJ002-col-5",
+      "product_id": "prod-002",
+      "colour_id": "col-SKJ002-5",
+      "image_url": "/images/skj002-col-5.svg",
+      "image_type": "colour",
+      "display_order": 6,
+      "created_at": "2026-11-03T10:06:44.170Z"
+    },
+    {
+      "id": "img-SKJ002-col-6",
+      "product_id": "prod-002",
+      "colour_id": "col-SKJ002-6",
+      "image_url": "/images/skj002-col-6.svg",
+      "image_type": "colour",
+      "display_order": 7,
+      "created_at": "2026-11-03T10:06:44.170Z"
+    },
+    {
+      "id": "img-SKJ002-col-7",
+      "product_id": "prod-002",
+      "colour_id": "col-SKJ002-7",
+      "image_url": "/images/skj002-col-7.svg",
+      "image_type": "colour",
+      "display_order": 8,
+      "created_at": "2026-11-03T10:06:44.170Z"
+    },
+    {
+      "id": "img-SKJ002-col-8",
+      "product_id": "prod-002",
+      "colour_id": "col-SKJ002-8",
+      "image_url": "/images/skj002-col-8.svg",
+      "image_type": "colour",
+      "display_order": 9,
+      "created_at": "2026-11-03T10:06:44.170Z"
+    },
+    {
+      "id": "img-SKJ003-main",
+      "product_id": "prod-003",
+      "colour_id": null,
+      "image_url": "/images/skj003-main.svg",
+      "image_type": "main",
+      "display_order": 1,
+      "created_at": "2026-11-04T10:06:44.175Z"
+    },
+    {
+      "id": "img-SKJ003-col-1",
+      "product_id": "prod-003",
+      "colour_id": "col-SKJ003-1",
+      "image_url": "/images/skj003-col-1.svg",
+      "image_type": "colour",
+      "display_order": 2,
+      "created_at": "2026-11-04T10:06:44.175Z"
+    },
+    {
+      "id": "img-SKJ003-col-2",
+      "product_id": "prod-003",
+      "colour_id": "col-SKJ003-2",
+      "image_url": "/images/skj003-col-2.svg",
+      "image_type": "colour",
+      "display_order": 3,
+      "created_at": "2026-11-04T10:06:44.175Z"
+    },
+    {
+      "id": "img-SKJ003-col-3",
+      "product_id": "prod-003",
+      "colour_id": "col-SKJ003-3",
+      "image_url": "/images/skj003-col-3.svg",
+      "image_type": "colour",
+      "display_order": 4,
+      "created_at": "2026-11-04T10:06:44.175Z"
+    },
+    {
+      "id": "img-SKJ003-col-4",
+      "product_id": "prod-003",
+      "colour_id": "col-SKJ003-4",
+      "image_url": "/images/skj003-col-4.svg",
+      "image_type": "colour",
+      "display_order": 5,
+      "created_at": "2026-11-04T10:06:44.175Z"
+    },
+    {
+      "id": "img-SKJ003-col-5",
+      "product_id": "prod-003",
+      "colour_id": "col-SKJ003-5",
+      "image_url": "/images/skj003-col-5.svg",
+      "image_type": "colour",
+      "display_order": 6,
+      "created_at": "2026-11-04T10:06:44.175Z"
+    },
+    {
+      "id": "img-SKJ003-col-6",
+      "product_id": "prod-003",
+      "colour_id": "col-SKJ003-6",
+      "image_url": "/images/skj003-col-6.svg",
+      "image_type": "colour",
+      "display_order": 7,
+      "created_at": "2026-11-04T10:06:44.175Z"
+    },
+    {
+      "id": "img-SKJ003-col-7",
+      "product_id": "prod-003",
+      "colour_id": "col-SKJ003-7",
+      "image_url": "/images/skj003-col-7.svg",
+      "image_type": "colour",
+      "display_order": 8,
+      "created_at": "2026-11-04T10:06:44.175Z"
+    },
+    {
+      "id": "img-SKJ003-col-8",
+      "product_id": "prod-003",
+      "colour_id": "col-SKJ003-8",
+      "image_url": "/images/skj003-col-8.svg",
+      "image_type": "colour",
+      "display_order": 9,
+      "created_at": "2026-11-04T10:06:44.175Z"
+    },
+    {
+      "id": "img-SKJ003-col-9",
+      "product_id": "prod-003",
+      "colour_id": "col-SKJ003-9",
+      "image_url": "/images/skj003-col-9.svg",
+      "image_type": "colour",
+      "display_order": 10,
+      "created_at": "2026-11-04T10:06:44.175Z"
+    },
+    {
+      "id": "img-SKJ003-col-10",
+      "product_id": "prod-003",
+      "colour_id": "col-SKJ003-10",
+      "image_url": "/images/skj003-col-10.svg",
+      "image_type": "colour",
+      "display_order": 11,
+      "created_at": "2026-11-04T10:06:44.175Z"
+    },
+    {
+      "id": "img-SKJ004-main",
+      "product_id": "prod-004",
+      "colour_id": null,
+      "image_url": "/images/skj004-main.svg",
+      "image_type": "main",
+      "display_order": 1,
+      "created_at": "2026-11-05T10:06:44.181Z"
+    },
+    {
+      "id": "img-SKJ004-col-1",
+      "product_id": "prod-004",
+      "colour_id": "col-SKJ004-1",
+      "image_url": "/images/skj004-col-1.svg",
+      "image_type": "colour",
+      "display_order": 2,
+      "created_at": "2026-11-05T10:06:44.181Z"
+    },
+    {
+      "id": "img-SKJ004-col-2",
+      "product_id": "prod-004",
+      "colour_id": "col-SKJ004-2",
+      "image_url": "/images/skj004-col-2.svg",
+      "image_type": "colour",
+      "display_order": 3,
+      "created_at": "2026-11-05T10:06:44.181Z"
+    },
+    {
+      "id": "img-SKJ004-col-3",
+      "product_id": "prod-004",
+      "colour_id": "col-SKJ004-3",
+      "image_url": "/images/skj004-col-3.svg",
+      "image_type": "colour",
+      "display_order": 4,
+      "created_at": "2026-11-05T10:06:44.181Z"
+    },
+    {
+      "id": "img-SKJ004-col-4",
+      "product_id": "prod-004",
+      "colour_id": "col-SKJ004-4",
+      "image_url": "/images/skj004-col-4.svg",
+      "image_type": "colour",
+      "display_order": 5,
+      "created_at": "2026-11-05T10:06:44.181Z"
+    },
+    {
+      "id": "img-SKJ005-main",
+      "product_id": "prod-005",
+      "colour_id": null,
+      "image_url": "/images/skj005-main.svg",
+      "image_type": "main",
+      "display_order": 1,
+      "created_at": "2026-11-06T10:06:44.184Z"
+    },
+    {
+      "id": "img-SKJ005-col-1",
+      "product_id": "prod-005",
+      "colour_id": "col-SKJ005-1",
+      "image_url": "/images/skj005-col-1.svg",
+      "image_type": "colour",
+      "display_order": 2,
+      "created_at": "2026-11-06T10:06:44.184Z"
+    },
+    {
+      "id": "img-SKJ005-col-2",
+      "product_id": "prod-005",
+      "colour_id": "col-SKJ005-2",
+      "image_url": "/images/skj005-col-2.svg",
+      "image_type": "colour",
+      "display_order": 3,
+      "created_at": "2026-11-06T10:06:44.184Z"
+    },
+    {
+      "id": "img-SKJ005-col-3",
+      "product_id": "prod-005",
+      "colour_id": "col-SKJ005-3",
+      "image_url": "/images/skj005-col-3.svg",
+      "image_type": "colour",
+      "display_order": 4,
+      "created_at": "2026-11-06T10:06:44.184Z"
+    },
+    {
+      "id": "img-SKJ005-col-4",
+      "product_id": "prod-005",
+      "colour_id": "col-SKJ005-4",
+      "image_url": "/images/skj005-col-4.svg",
+      "image_type": "colour",
+      "display_order": 5,
+      "created_at": "2026-11-06T10:06:44.184Z"
+    },
+    {
+      "id": "img-SKJ005-col-5",
+      "product_id": "prod-005",
+      "colour_id": "col-SKJ005-5",
+      "image_url": "/images/skj005-col-5.svg",
+      "image_type": "colour",
+      "display_order": 6,
+      "created_at": "2026-11-06T10:06:44.184Z"
+    },
+    {
+      "id": "img-SKJ005-col-6",
+      "product_id": "prod-005",
+      "colour_id": "col-SKJ005-6",
+      "image_url": "/images/skj005-col-6.svg",
+      "image_type": "colour",
+      "display_order": 7,
+      "created_at": "2026-11-06T10:06:44.184Z"
+    },
+    {
+      "id": "img-SKJ006-main",
+      "product_id": "prod-006",
+      "colour_id": null,
+      "image_url": "/images/skj006-main.svg",
+      "image_type": "main",
+      "display_order": 1,
+      "created_at": "2026-11-07T10:06:44.186Z"
+    },
+    {
+      "id": "img-SKJ006-col-1",
+      "product_id": "prod-006",
+      "colour_id": "col-SKJ006-1",
+      "image_url": "/images/skj006-col-1.svg",
+      "image_type": "colour",
+      "display_order": 2,
+      "created_at": "2026-11-07T10:06:44.186Z"
+    },
+    {
+      "id": "img-SKJ006-col-2",
+      "product_id": "prod-006",
+      "colour_id": "col-SKJ006-2",
+      "image_url": "/images/skj006-col-2.svg",
+      "image_type": "colour",
+      "display_order": 3,
+      "created_at": "2026-11-07T10:06:44.186Z"
+    },
+    {
+      "id": "img-SKJ006-col-3",
+      "product_id": "prod-006",
+      "colour_id": "col-SKJ006-3",
+      "image_url": "/images/skj006-col-3.svg",
+      "image_type": "colour",
+      "display_order": 4,
+      "created_at": "2026-11-07T10:06:44.186Z"
+    },
+    {
+      "id": "img-SKJ006-col-4",
+      "product_id": "prod-006",
+      "colour_id": "col-SKJ006-4",
+      "image_url": "/images/skj006-col-4.svg",
+      "image_type": "colour",
+      "display_order": 5,
+      "created_at": "2026-11-07T10:06:44.186Z"
+    },
+    {
+      "id": "img-SKJ006-col-5",
+      "product_id": "prod-006",
+      "colour_id": "col-SKJ006-5",
+      "image_url": "/images/skj006-col-5.svg",
+      "image_type": "colour",
+      "display_order": 6,
+      "created_at": "2026-11-07T10:06:44.186Z"
+    },
+    {
+      "id": "img-SKJ006-col-6",
+      "product_id": "prod-006",
+      "colour_id": "col-SKJ006-6",
+      "image_url": "/images/skj006-col-6.svg",
+      "image_type": "colour",
+      "display_order": 7,
+      "created_at": "2026-11-07T10:06:44.186Z"
+    },
+    {
+      "id": "img-SKJ007-main-1794133054128",
+      "product_id": "prod-1794133054128",
+      "colour_id": null,
+      "image_url": "/images/skj002-main.svg",
+      "image_type": "main",
+      "display_order": 1,
+      "created_at": "2026-11-08T10:17:34.128Z"
+    },
+    {
+      "id": "img-SKJ007-col-1-1794133054128",
+      "product_id": "prod-1794133054128",
+      "colour_id": "col-SKJ007-1-1794133054128",
+      "image_url": "/images/skj002-main.svg",
+      "image_type": "colour",
+      "display_order": 2,
+      "created_at": "2026-11-08T10:17:34.128Z"
+    },
+    {
+      "id": "img-SKJ007-col-2-1794133054128",
+      "product_id": "prod-1794133054128",
+      "colour_id": "col-SKJ007-2-1794133054128",
+      "image_url": "/images/skj002-main.svg",
+      "image_type": "colour",
+      "display_order": 3,
+      "created_at": "2026-11-08T10:17:34.128Z"
+    },
+    {
+      "id": "img-SKJ007-col-3-1794133054128",
+      "product_id": "prod-1794133054128",
+      "colour_id": "col-SKJ007-3-1794133054128",
+      "image_url": "/images/skj002-main.svg",
+      "image_type": "colour",
+      "display_order": 4,
+      "created_at": "2026-11-08T10:17:34.128Z"
+    },
+    {
+      "id": "img-SKJ007-col-4-1794133054128",
+      "product_id": "prod-1794133054128",
+      "colour_id": "col-SKJ007-4-1794133054128",
+      "image_url": "/images/skj002-main.svg",
+      "image_type": "colour",
+      "display_order": 5,
+      "created_at": "2026-11-08T10:17:34.128Z"
+    },
+    {
+      "id": "img-SKJ007-col-5-1794133054128",
+      "product_id": "prod-1794133054128",
+      "colour_id": "col-SKJ007-5-1794133054128",
+      "image_url": "/images/skj002-main.svg",
+      "image_type": "colour",
+      "display_order": 6,
+      "created_at": "2026-11-08T10:17:34.128Z"
+    },
+    {
+      "id": "img-SKJ007-col-6-1794133054128",
+      "product_id": "prod-1794133054128",
+      "colour_id": "col-SKJ007-6-1794133054128",
+      "image_url": "/images/skj002-main.svg",
+      "image_type": "colour",
+      "display_order": 7,
+      "created_at": "2026-11-08T10:17:34.128Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-printed",
+      "category_name_en": "Printed Sarees",
+      "category_name_hi": "प्रिंटेड साड़ियां",
+      "description_en": "Bandhani, Leheriya, Floral and Geometric prints for daily & festive demand",
+      "description_hi": "बांधनी, लहरिया, फ्लोरल और जयपुरी प्रिंट की साड़ियां",
+      "image_url": "/images/skj001-main.svg",
+      "is_active": true
+    },
+    {
+      "id": "cat-silk",
+      "category_name_en": "Silk Sarees",
+      "category_name_hi": "सिल्क साड़ियां",
+      "description_en": "Chanderi, Katan, Art Silk and Dola Silk festive collections",
+      "description_hi": "चंदेरी, कातन, आर्ट सिल्क और डोला सिल्क के शानदार सेट्स",
+      "image_url": "/images/skj002-main.svg",
+      "is_active": true
+    },
+    {
+      "id": "cat-cotton",
+      "category_name_en": "Cotton Sarees",
+      "category_name_hi": "कॉटन सूती साड़ियां",
+      "description_en": "100% pure Mulmul cotton, Bagru block print, all-day comfort sarees",
+      "description_hi": "100% शुद्ध मलमल सूती कॉटन, बगरू ब्लॉक प्रिंट साड़ियां",
+      "image_url": "/images/skj003-main.svg",
+      "is_active": true
+    },
+    {
+      "id": "cat-designer",
+      "category_name_en": "Designer Sarees",
+      "category_name_hi": "डिजाइनर साड़ियां",
+      "description_en": "Royal Banarasi brocade, wedding bridal collections and heavy zari work",
+      "description_hi": "रॉयल बनारसी ब्रोकेड, ब्राइडल कलेक्शन और हैवी ज़री वर्क",
+      "image_url": "/images/skj004-main.svg",
+      "is_active": true
+    },
+    {
+      "id": "cat-party",
+      "category_name_en": "Party Wear Sarees",
+      "category_name_hi": "पार्टी वियर साड़ियां",
+      "description_en": "Foil printed Dola silk, fancy party wear sarees with borders",
+      "description_hi": "फॉयल प्रिंट डोला सिल्क, फैंसी पार्टी वियर बॉर्डर साड़ियां",
+      "image_url": "/images/skj005-main.svg",
+      "is_active": true
+    },
+    {
+      "id": "cat-fancy",
+      "category_name_en": "Fancy & Handloom",
+      "category_name_hi": "फैंसी एवं हैंडलूम",
+      "description_en": "Maheshwari handloom checks, fancy borders, boutique special",
+      "description_hi": "महेश्वरी हैंडलूम चेक, फैंसी बॉर्डर और बुटीक स्पेशल सेट्स",
+      "image_url": "/images/skj006-main.svg",
+      "is_active": true
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust-1794133054098",
+      "full_name": "Shree Radhe Saree Emporium (Suresh Patel)",
+      "mobile_number": "9827011223",
+      "delivery_address": "45 Sarafa Bazar",
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "pincode": "452002",
+      "created_at": "2026-11-08T10:17:34.098Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1794133054089",
+      "order_number": "SKJ-2026-1003",
+      "customer_name": "Shree Radhe Saree Emporium (Suresh Patel)",
+      "mobile_number": "9827011223",
+      "delivery_address": "45 Sarafa Bazar",
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "pincode": "452002",
+      "subtotal": 10400,
+      "delivery_charge": 0,
+      "grand_total": 10400,
+      "order_status": "Confirmed",
+      "payment_status": "To be Confirmed with Shop",
+      "customer_notes": "Keep 2 sets of SKJ002 ready for transport dispatch",
+      "created_at": "2026-11-08T10:17:34.098Z",
+      "updated_at": "2026-11-08T10:17:34.121Z"
+    },
+    {
+      "id": "ord-1001",
+      "order_number": "SKJ-2026-1001",
+      "customer_name": "Rajesh Saree Emporium (Rajesh Sharma)",
+      "mobile_number": "9826012345",
+      "delivery_address": "Shop No. 14, Sarafa Bazar, Ujjain",
+      "city": "Ujjain",
+      "state": "Madhya Pradesh",
+      "pincode": "456001",
+      "subtotal": 19800,
+      "delivery_charge": 0,
+      "grand_total": 19800,
+      "order_status": "Confirmed",
+      "payment_status": "To be Confirmed with Shop",
+      "customer_notes": "Please dispatch via Indore-Ujjain fast parcel transport.",
+      "created_at": "2026-11-06T10:06:44.188Z",
+      "updated_at": "2026-11-07T10:06:44.188Z"
+    },
+    {
+      "id": "ord-1002",
+      "order_number": "SKJ-2026-1002",
+      "customer_name": "Pooja Vastra Bhandar (Pooja Agarwal)",
+      "mobile_number": "9425088899",
+      "delivery_address": "Near Clock Tower, Main Market, Dewas",
+      "city": "Dewas",
+      "state": "Madhya Pradesh",
+      "pincode": "455001",
+      "subtotal": 9900,
+      "delivery_charge": 0,
+      "grand_total": 9900,
+      "order_status": "Pending Confirmation",
+      "payment_status": "Pending",
+      "customer_notes": "Send Bandhani set colours as discussed on WhatsApp.",
+      "created_at": "2026-11-08T06:06:44.188Z",
+      "updated_at": "2026-11-08T06:06:44.188Z"
+    }
+  ],
+  "order_items": [
+    {
+      "id": "item-1001-1",
+      "order_id": "ord-1001",
+      "product_id": "prod-001",
+      "product_code_snapshot": "SKJ001",
+      "product_name_snapshot": "Fancy Bandhani Printed Georgette Saree Set",
+      "price_per_set_snapshot": 3300,
+      "sarees_per_set_snapshot": 6,
+      "number_of_sets": 3,
+      "total_sarees": 18,
+      "total_price": 9900
+    },
+    {
+      "id": "item-1001-2",
+      "order_id": "ord-1001",
+      "product_id": "prod-005",
+      "product_code_snapshot": "SKJ005",
+      "product_name_snapshot": "Dola Silk Foil Print Party Wear Saree Set",
+      "price_per_set_snapshot": 3900,
+      "sarees_per_set_snapshot": 6,
+      "number_of_sets": 2,
+      "total_sarees": 12,
+      "total_price": 7800
+    },
+    {
+      "id": "item-1001-3",
+      "order_id": "ord-1001",
+      "product_id": "prod-006",
+      "product_code_snapshot": "SKJ006",
+      "product_name_snapshot": "Maheshwari Handloom Zari Checks Saree Set",
+      "price_per_set_snapshot": 4200,
+      "sarees_per_set_snapshot": 6,
+      "number_of_sets": 1,
+      "total_sarees": 6,
+      "total_price": 4200
+    },
+    {
+      "id": "item-1002-1",
+      "order_id": "ord-1002",
+      "product_id": "prod-001",
+      "product_code_snapshot": "SKJ001",
+      "product_name_snapshot": "Fancy Bandhani Printed Georgette Saree Set",
+      "price_per_set_snapshot": 3300,
+      "sarees_per_set_snapshot": 6,
+      "number_of_sets": 3,
+      "total_sarees": 18,
+      "total_price": 9900
+    },
+    {
+      "id": "item-1794133054097-247",
+      "order_id": "ord-1794133054089",
+      "product_id": "prod-002",
+      "product_code_snapshot": "SKJ002",
+      "product_name_snapshot": "Chanderi Silk Golden Zari Border Saree Set",
+      "price_per_set_snapshot": 5200,
+      "sarees_per_set_snapshot": 8,
+      "number_of_sets": 2,
+      "total_sarees": 16,
+      "total_price": 10400
+    }
+  ],
+  "admin_users": [
+    {
+      "id": "admin-001",
+      "full_name": "Sunil Kumar",
+      "username": "admin",
+      "email": "admin@sunilkumarjayantilal.com",
+      "password_hash": "cbb66ea364794f50d0e551d30429cc2808ee791cded759b16ab0e224744a6ed5",
+      "salt": "f9df97f98e6e8bb8332b7925ebd6d6ed",
+      "role": "admin",
+      "is_active": true,
+      "created_at": "2026-11-08T10:06:44.188Z"
+    }
+  ],
+  "business_settings": {
+    "id": "settings-main",
+    "shop_name": "Sunil Kumar Jayantilal",
+    "shop_tagline_en": "Wholesale Sarees at the Right Price",
+    "shop_tagline_hi": "थोक भाव में साड़ियों की शानदार वैरायटी",
+    "phone_number": "9425191176",
+    "whatsapp_number": "9425191176",
+    "shop_address": "62/2 Jawahar Gate, M.T. Cloth Market, Indore, Madhya Pradesh",
+    "city": "Indore",
+    "state": "Madhya Pradesh",
+    "pincode": "452002",
+    "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.1989528731086!2d75.850239!3d22.720815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd0be49f4cd7%3A0x6b9d6286fa64d048!2sM.T.%20Cloth%20Market%2C%20Maharaja%20Tukoji%20Rao%20Holkar%20Cloth%20Market%2C%20Indore%2C%20Madhya%20Pradesh%20452002!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
+    "map_direct_url": "https://maps.google.com/?q=62/2+Jawahar+Gate+M.T.+Cloth+Market+Indore+Madhya+Pradesh",
+    "default_language": "hi",
+    "announcement_en": "Special Wholesale Festive Sets In Stock • Delivery across all India • Direct WhatsApp Enquiry",
+    "announcement_hi": "त्योहारी सीजन के नए थोक साड़ी सेट्स उपलब्ध • पूरे भारत में डिलीवरी • व्हाट्सएप पर सीधा संपर्क",
+    "updated_at": "2026-11-08T10:06:44.188Z"
+  },
+  "stock_audit_log": [
+    {
+      "id": "audit-1794133054128",
+      "product_id": "prod-1794133054128",
+      "change_type": "initial",
+      "previous_stock": 0,
+      "new_stock": 20,
+      "sets_changed": 20,
+      "reason": "New product creation by admin",
+      "timestamp": "2026-11-08T10:17:34.128Z"
+    },
+    {
+      "id": "audit-1794133054121-48",
+      "product_id": "prod-002",
+      "change_type": "order_confirmed",
+      "previous_stock": 18,
+      "new_stock": 16,
+      "sets_changed": -2,
+      "reason": "Stock deducted on confirming Order SKJ-2026-1003",
+      "timestamp": "2026-11-08T10:17:34.121Z"
+    },
+    {
+      "id": "audit-001",
+      "product_id": "prod-001",
+      "change_type": "initial",
+      "previous_stock": 0,
+      "new_stock": 28,
+      "sets_changed": 28,
+      "reason": "Initial warehouse inventory stock-in",
+      "timestamp": "2026-11-01T10:06:44.188Z"
+    },
+    {
+      "id": "audit-002",
+      "product_id": "prod-001",
+      "change_type": "order_confirmed",
+      "previous_stock": 28,
+      "new_stock": 25,
+      "sets_changed": -3,
+      "reason": "Order confirmed: SKJ-2026-1001",
+      "timestamp": "2026-11-07T10:06:44.188Z"
+    }
+  ]
+}

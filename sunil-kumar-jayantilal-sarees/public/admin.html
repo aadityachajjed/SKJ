@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Admin Dashboard – Sunil Kumar Jayantilal Wholesale Sarees</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <style>
+    /* Admin Specific Styling */
+    .admin-body {
+      background: #F4EFEB;
+      min-height: 100vh;
+    }
+    .admin-nav {
+      background: var(--maroon-dark);
+      color: var(--white);
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 3px solid var(--gold);
+    }
+    .admin-stats-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    @media(min-width: 900px) {
+      .admin-stats-grid {
+        grid-template-columns: repeat(5, 1fr);
+      }
+    }
+    .stat-card {
+      background: var(--white);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      border: 1.5px solid var(--beige);
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .stat-card .num {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--maroon);
+      line-height: 1.1;
+    }
+    .stat-card .label {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+    .admin-tabs {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      border-bottom: 2px solid var(--beige);
+      margin-bottom: 24px;
+      padding-bottom: 4px;
+    }
+    .admin-tab-btn {
+      padding: 12px 20px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--dark);
+      border-radius: var(--radius-md) var(--radius-md) 0 0;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+    .admin-tab-btn:hover {
+      background: var(--cream);
+      color: var(--maroon);
+    }
+    .admin-tab-btn.active {
+      background: var(--maroon);
+      color: var(--white);
+    }
+    /* Wizard Steps */
+    .wizard-step-indicator {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      position: relative;
+    }
+    .step-node {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      z-index: 2;
+    }
+    .step-circle {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: var(--cream-soft);
+      border: 2px solid var(--beige);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      color: var(--dark);
+    }
+    .step-node.active .step-circle {
+      background: var(--maroon);
+      border-color: var(--gold);
+      color: var(--white);
+    }
+    .step-node.completed .step-circle {
+      background: var(--success);
+      border-color: var(--success);
+      color: var(--white);
+    }
+    .wizard-card {
+      background: var(--white);
+      border: 1.5px solid var(--beige);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+      box-shadow: var(--shadow-sm);
+    }
+    .colour-row-entry {
+      background: var(--cream-soft);
+      border: 1.5px solid var(--beige);
+      border-radius: var(--radius-md);
+      padding: 16px;
+      margin-bottom: 12px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      align-items: center;
+    }
+    @media(min-width: 640px) {
+      .colour-row-entry {
+        grid-template-columns: 2fr 1fr 1fr 1.5fr auto;
+      }
+    }
+    .admin-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--white);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+    }
+    .admin-table th, .admin-table td {
+      padding: 14px 16px;
+      text-align: left;
+      border-bottom: 1px solid var(--beige);
+      font-size: 0.9rem;
+    }
+    .admin-table th {
+      background: var(--cream-soft);
+      font-weight: 700;
+      color: var(--maroon);
+    }
+  </style>
+</head>
+<body class="admin-body">
+
+  <!-- Admin Login Screen (Shown when not authenticated) -->
+  <div id="admin-login-view" style="display: flex; align-items: center; justify-content: center; min-height: 100vh; padding: 20px;">
+    <div style="background: var(--white); border: 2px solid var(--gold); border-radius: var(--radius-lg); padding: 36px; width: 100%; max-width: 440px; box-shadow: var(--shadow-xl); text-align: center;">
+      <div class="logo-icon" style="margin: 0 auto 16px; width: 56px; height: 56px; font-size: 1.8rem;">SKJ</div>
+      <h2 style="color: var(--maroon); margin-bottom: 4px;">सुनील कुमार जयंतीलाल</h2>
+      <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 24px;">Admin Inventory & Order Dashboard</p>
+
+      <form id="admin-login-form" onsubmit="return false;">
+        <div class="form-group" style="text-align: left;">
+          <label class="form-label">Username / Email</label>
+          <input type="text" id="login-username" class="form-control" value="admin" required placeholder="admin">
+        </div>
+        <div class="form-group" style="text-align: left; margin-bottom: 24px;">
+          <label class="form-label">Password</label>
+          <input type="password" id="login-password" class="form-control" value="admin123" required placeholder="••••••••">
+          <small style="color: var(--text-muted); margin-top: 4px; font-size: 0.78rem;">Default Credentials: admin / admin123</small>
+        </div>
+        <button type="button" class="btn btn-primary btn-lg" id="btn-do-login" style="width: 100%;">
+          Login to Dashboard
+        </button>
+      </form>
+      <div style="margin-top: 20px;">
+        <a href="/" style="color: var(--maroon); font-size: 0.9rem; font-weight: 600;">← Back to Customer Website</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Authenticated Admin Dashboard Layout -->
+  <div id="admin-dashboard-view" style="display: none;">
+    <!-- Admin Top Nav -->
+    <header class="admin-nav">
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <span style="font-weight: 800; font-size: 1.25rem; color: var(--gold);">SKJ ADMIN</span>
+        <span style="font-size: 0.85rem; color: var(--cream);">| Sunil Kumar Jayantilal Sarees</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 16px;">
+        <a href="/" target="_blank" class="btn btn-secondary btn-sm" style="color: var(--cream); border-color: var(--gold); background: transparent;">
+          View Storefront ↗
+        </a>
+        <button class="btn btn-secondary btn-sm" id="btn-admin-logout" style="background: rgba(255,255,255,0.1); color: var(--white); border: none;">
+          Logout
+        </button>
+      </div>
+    </header>
+
+    <div class="container" style="padding-top: 28px; padding-bottom: 60px;">
+      <!-- Stats Overview Cards -->
+      <div class="admin-stats-grid">
+        <div class="stat-card">
+          <div class="num" id="stat-products">0</div>
+          <div class="label">Total Saree Products</div>
+        </div>
+        <div class="stat-card">
+          <div class="num" id="stat-available-sets" style="color: var(--success);">0</div>
+          <div class="label">Total Available Sets</div>
+        </div>
+        <div class="stat-card">
+          <div class="num" id="stat-out-of-stock" style="color: var(--danger);">0</div>
+          <div class="label">Out of Stock Products</div>
+        </div>
+        <div class="stat-card">
+          <div class="num" id="stat-pending-orders" style="color: var(--warning);">0</div>
+          <div class="label">Pending Confirmation</div>
+        </div>
+        <div class="stat-card">
+          <div class="num" id="stat-confirmed-orders" style="color: var(--maroon);">0</div>
+          <div class="label">Confirmed Orders</div>
+        </div>
+      </div>
+
+      <!-- Prominent Action Bar -->
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 12px;">
+        <!-- Large Add Saree Button (PRD Requirement) -->
+        <button class="btn btn-primary btn-lg" id="btn-open-add-wizard" style="font-size: 1.15rem; padding: 14px 28px;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          + ADD NEW SAREE STOCK / नया साड़ी स्टॉक जोड़ें
+        </button>
+
+        <button class="btn btn-secondary btn-sm" id="btn-refresh-data">
+          Refresh Data ⟳
+        </button>
+      </div>
+
+      <!-- Admin Tabs Navigation -->
+      <div class="admin-tabs">
+        <button class="admin-tab-btn active" data-tab="products">Manage Products (कलेक्शन)</button>
+        <button class="admin-tab-btn" data-tab="orders">Manage Orders (ऑर्डर्स)</button>
+        <button class="admin-tab-btn" data-tab="stock-audit">Stock History (स्टॉक रिकॉर्ड)</button>
+        <button class="admin-tab-btn" data-tab="settings">Shop Settings (सेटिंग्स)</button>
+      </div>
+
+      <!-- TAB 1: MANAGE PRODUCTS -->
+      <div class="tab-content" id="tab-products">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; gap: 12px;">
+          <input type="text" id="admin-product-search" class="form-control" placeholder="Search products by SKU, name or fabric..." style="max-width: 360px;">
+          <span style="font-size: 0.88rem; color: var(--text-muted);"><strong id="admin-prod-count">0</strong> products found</span>
+        </div>
+        <div style="overflow-x: auto;">
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>Photo</th>
+                <th>SKU</th>
+                <th>Product Name</th>
+                <th>Fabric</th>
+                <th>Set Quantity</th>
+                <th>Wholesale Price</th>
+                <th>Stock (Sets)</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="admin-products-table-body">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- TAB 2: MANAGE ORDERS -->
+      <div class="tab-content" id="tab-orders" style="display: none;">
+        <div style="margin-bottom: 16px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+          <label style="font-weight: 600; font-size: 0.9rem;">Filter Status:</label>
+          <select id="order-status-filter" class="form-control" style="max-width: 200px;">
+            <option value="all">All Orders</option>
+            <option value="Pending Confirmation">Pending Confirmation</option>
+            <option value="Confirmed">Confirmed</option>
+            <option value="Processing">Processing</option>
+            <option value="Dispatched">Dispatched</option>
+            <option value="Delivered">Delivered</option>
+            <option value="Cancelled">Cancelled</option>
+          </select>
+        </div>
+        <div id="admin-orders-list">
+          <!-- Dynamically populated order cards -->
+        </div>
+      </div>
+
+      <!-- TAB 3: STOCK AUDIT LOG -->
+      <div class="tab-content" id="tab-stock-audit" style="display: none;">
+        <div style="background: var(--white); border-radius: var(--radius-md); padding: 20px; border: 1.5px solid var(--beige);">
+          <h3 style="color: var(--maroon); margin-bottom: 16px;">Stock Adjustment History</h3>
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>Timestamp</th>
+                <th>Product ID / SKU</th>
+                <th>Type</th>
+                <th>Previous Stock</th>
+                <th>Sets Changed</th>
+                <th>New Stock</th>
+                <th>Reason</th>
+              </tr>
+            </thead>
+            <tbody id="admin-audit-table-body">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- TAB 4: SHOP SETTINGS -->
+      <div class="tab-content" id="tab-settings" style="display: none;">
+        <div class="wizard-card" style="max-width: 700px;">
+          <h3 style="color: var(--maroon); margin-bottom: 16px;">Shop Profile & Contact Settings</h3>
+          <form id="settings-form" onsubmit="return false;">
+            <div class="form-group">
+              <label class="form-label">Shop Name</label>
+              <input type="text" id="set-shop-name" class="form-control">
+            </div>
+            <div class="form-row-2">
+              <div class="form-group">
+                <label class="form-label">Phone Number (Calling)</label>
+                <input type="tel" id="set-phone" class="form-control">
+              </div>
+              <div class="form-group">
+                <label class="form-label">WhatsApp Number</label>
+                <input type="tel" id="set-whatsapp" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Shop Address (M.T. Cloth Market)</label>
+              <input type="text" id="set-address" class="form-control">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Google Maps Direct URL</label>
+              <input type="text" id="set-map-direct" class="form-control">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Google Maps Embed URL</label>
+              <input type="text" id="set-map-embed" class="form-control">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Top Banner Announcement (Hindi)</label>
+              <input type="text" id="set-ann-hi" class="form-control">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Top Banner Announcement (English)</label>
+              <input type="text" id="set-ann-en" class="form-control">
+            </div>
+            <button type="button" class="btn btn-primary btn-lg" id="btn-save-settings">
+              Save Shop Settings
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5-STEP ADD NEW SAREE STOCK WIZARD MODAL -->
+  <div class="modal-overlay" id="wizard-modal">
+    <div class="modal-container" style="max-width: 800px; padding: 28px;">
+      <button class="modal-close-btn" id="wizard-close-btn">&times;</button>
+
+      <div style="text-align: center; margin-bottom: 24px;">
+        <h2 style="color: var(--maroon); font-size: 1.5rem;">+ Add New Saree Stock</h2>
+        <p style="color: var(--text-muted); font-size: 0.9rem;">नया साड़ी सेट अपलोड करें - 5 आसान चरण</p>
+      </div>
+
+      <!-- Step Indicator -->
+      <div class="wizard-step-indicator">
+        <div class="step-node active" id="node-step-1">
+          <div class="step-circle">1</div>
+          <span>Basic Info</span>
+        </div>
+        <div class="step-node" id="node-step-2">
+          <div class="step-circle">2</div>
+          <span>Set Info</span>
+        </div>
+        <div class="step-node" id="node-step-3">
+          <div class="step-circle">3</div>
+          <span>Colours</span>
+        </div>
+        <div class="step-node" id="node-step-4">
+          <div class="step-circle">4</div>
+          <span>Photos</span>
+        </div>
+        <div class="step-node" id="node-step-5">
+          <div class="step-circle">5</div>
+          <span>Publish</span>
+        </div>
+      </div>
+
+      <!-- STEP 1: BASIC INFORMATION -->
+      <div class="wizard-step-panel" id="panel-step-1">
+        <h3 style="color: var(--maroon); margin-bottom: 16px; font-size: 1.15rem;">चरण 1: साड़ी की सामान्य जानकारी (Basic Info)</h3>
+        <div class="form-group">
+          <label class="form-label">Product Name (English) *</label>
+          <input type="text" id="wiz-name-en" class="form-control" placeholder="e.g. Bandhani Georgette Zari Border Saree Set" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Product Name (Hindi) *</label>
+          <input type="text" id="wiz-name-hi" class="form-control" placeholder="उदा. बांधनी जॉर्जेट ज़री बॉर्डर साड़ी सेट" required>
+        </div>
+        <div class="form-row-2">
+          <div class="form-group">
+            <label class="form-label">Product Code / SKU (Auto-generated if blank)</label>
+            <input type="text" id="wiz-code" class="form-control" placeholder="e.g. SKJ007">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Category *</label>
+            <select id="wiz-category" class="form-control">
+              <!-- Dynamically populated -->
+            </select>
+          </div>
+        </div>
+        <div class="form-row-2">
+          <div class="form-group">
+            <label class="form-label">Fabric Type *</label>
+            <input type="text" id="wiz-fabric" class="form-control" placeholder="e.g. Pure Georgette / Cotton / Chanderi Silk">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Design / Pattern *</label>
+            <input type="text" id="wiz-design" class="form-control" placeholder="e.g. Jaipuri Bandhani / Zari Border / Block Print">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Description (Hindi / English)</label>
+          <textarea id="wiz-desc" class="form-control" placeholder="साड़ी की विशेषताएं, पल्लू, ब्लाउज और कपड़े की जानकारी..."></textarea>
+        </div>
+        <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
+          <button type="button" class="btn btn-primary btn-lg" onclick="wizardNext(2)">Next: Set Information →</button>
+        </div>
+      </div>
+
+      <!-- STEP 2: SET INFORMATION -->
+      <div class="wizard-step-panel" id="panel-step-2" style="display: none;">
+        <h3 style="color: var(--maroon); margin-bottom: 16px; font-size: 1.15rem;">चरण 2: सेट विवरण एवं थोक भाव (Set Information)</h3>
+        <div class="form-row-2">
+          <div class="form-group">
+            <label class="form-label">Wholesale Price Per Set (₹) *</label>
+            <input type="number" id="wiz-price" class="form-control" placeholder="e.g. 3000" min="100" required>
+            <small style="color: var(--text-muted);">यह 1 पूरे सेट की थोक कीमत होगी</small>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Number of Sarees in 1 Set *</label>
+            <input type="number" id="wiz-sarees-per-set" class="form-control" placeholder="e.g. 6 or 8 or 10" min="1" max="24" value="6" required>
+            <small style="color: var(--text-muted);">1 सेट में कितनी साड़ियां हैं (उदा. 6)</small>
+          </div>
+        </div>
+        <div class="form-row-2">
+          <div class="form-group">
+            <label class="form-label">Available Sets in Stock *</label>
+            <input type="number" id="wiz-stock" class="form-control" placeholder="e.g. 25" min="0" value="25" required>
+            <small style="color: var(--text-muted);">कुल कितने सेट्स गोदाम/दुकान में उपलब्ध हैं</small>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Minimum Order Quantity (Sets)</label>
+            <input type="number" id="wiz-moq" class="form-control" value="1" min="1">
+            <small style="color: var(--text-muted);">न्यूनतम ऑर्डर सेट्स</small>
+          </div>
+        </div>
+        <div style="display: flex; justify-content: space-between; margin-top: 24px;">
+          <button type="button" class="btn btn-secondary" onclick="wizardPrev(1)">← Back</button>
+          <button type="button" class="btn btn-primary btn-lg" onclick="wizardNext(3)">Next: Add Colours →</button>
+        </div>
+      </div>
+
+      <!-- STEP 3: DYNAMIC COLOURS -->
+      <div class="wizard-step-panel" id="panel-step-3" style="display: none;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap;">
+          <div>
+            <h3 style="color: var(--maroon); font-size: 1.15rem;">चरण 3: सेट में शामिल सभी रंग (Colours Management)</h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">सेट में आने वाले सभी रंगों के नाम और मात्रा जोड़ें</p>
+          </div>
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-add-colour-row">
+            + ADD ANOTHER COLOUR / एक और रंग जोड़ें
+          </button>
+        </div>
+
+        <!-- Colour Match Validation Status Banner -->
+        <div id="colour-sum-alert" style="padding: 12px 16px; border-radius: 8px; margin-bottom: 16px; font-weight: 600; font-size: 0.9rem;"></div>
+
+        <div id="colours-rows-container">
+          <!-- Dynamically generated colour rows -->
+        </div>
+
+        <div style="display: flex; justify-content: space-between; margin-top: 24px;">
+          <button type="button" class="btn btn-secondary" onclick="wizardPrev(2)">← Back</button>
+          <button type="button" class="btn btn-primary btn-lg" onclick="wizardNext(4)">Next: Photos Upload →</button>
+        </div>
+      </div>
+
+      <!-- STEP 4: IMAGE UPLOADS -->
+      <div class="wizard-step-panel" id="panel-step-4" style="display: none;">
+        <h3 style="color: var(--maroon); margin-bottom: 16px; font-size: 1.15rem;">चरण 4: साड़ियों की फोटो अपलोड करें (Photo Upload)</h3>
+        <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 16px;">
+          अपने फोन या कंप्यूटर से मुख्य फोटो और प्रत्येक रंग की अलग फोटो चुनें। फोटो अपने आप ऑप्टिमाइज़ हो जाएगी।
+        </p>
+
+        <!-- Main Photo Upload -->
+        <div style="background: var(--cream-soft); border: 2px dashed var(--gold); border-radius: var(--radius-md); padding: 20px; text-align: center; margin-bottom: 20px;">
+          <h4 style="color: var(--maroon); margin-bottom: 8px;">Main Saree Photograph (मुख्य फोटो)</h4>
+          <input type="file" id="main-photo-input" accept="image/*" style="display: none;">
+          <button type="button" class="btn btn-secondary btn-sm" onclick="document.getElementById('main-photo-input').click()">
+            📁 Choose Main Photograph
+          </button>
+          <div id="main-photo-preview" style="margin-top: 12px;"></div>
+        </div>
+
+        <!-- Colour-wise photos assignment -->
+        <div id="colour-photos-assign-container">
+          <!-- Dynamically populated from Step 3 colours -->
+        </div>
+
+        <div style="display: flex; justify-content: space-between; margin-top: 24px;">
+          <button type="button" class="btn btn-secondary" onclick="wizardPrev(3)">← Back</button>
+          <button type="button" class="btn btn-primary btn-lg" onclick="wizardNext(5)">Next: Preview & Publish →</button>
+        </div>
+      </div>
+
+      <!-- STEP 5: PREVIEW & PUBLISH -->
+      <div class="wizard-step-panel" id="panel-step-5" style="display: none;">
+        <h3 style="color: var(--maroon); margin-bottom: 16px; font-size: 1.15rem;">चरण 5: प्रोडक्ट जांचें एवं पब्लिश करें (Preview & Publish)</h3>
+        <div id="wizard-live-preview-box" style="margin-bottom: 24px;">
+          <!-- Dynamically generated preview card -->
+        </div>
+
+        <div style="display: flex; justify-content: space-between; gap: 12px;">
+          <button type="button" class="btn btn-secondary" onclick="wizardPrev(4)">← Back</button>
+          <div style="display: flex; gap: 10px;">
+            <button type="button" class="btn btn-gold btn-lg" id="btn-publish-product">
+              ✓ PUBLISH PRODUCT / प्रोडक्ट पब्लिश करें
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Quick Stock Update Modal -->
+  <div class="modal-overlay" id="stock-modal">
+    <div class="modal-container" style="max-width: 440px; padding: 24px;">
+      <button class="modal-close-btn" id="stock-modal-close-btn">&times;</button>
+      <h3 style="color: var(--maroon); margin-bottom: 8px;">Quick Stock Update</h3>
+      <p id="stock-modal-prod-title" style="font-weight: 700; font-size: 0.95rem; margin-bottom: 16px;"></p>
+
+      <div class="form-group">
+        <label class="form-label">Current Stock: <span id="stock-modal-current" style="font-weight: 800; color: var(--maroon);">0</span> Sets</label>
+        <div style="display: flex; gap: 10px; margin-top: 8px;">
+          <button class="btn btn-secondary btn-sm" onclick="adjustQuickStock(-5)">-5</button>
+          <button class="btn btn-secondary btn-sm" onclick="adjustQuickStock(-1)">-1</button>
+          <button class="btn btn-secondary btn-sm" onclick="adjustQuickStock(1)">+1</button>
+          <button class="btn btn-secondary btn-sm" onclick="adjustQuickStock(5)">+5</button>
+          <button class="btn btn-secondary btn-sm" onclick="adjustQuickStock(10)">+10</button>
+        </div>
+      </div>
+
+      <div class="form-group" style="margin-top: 16px;">
+        <label class="form-label">Or Set Exact Number of Sets:</label>
+        <input type="number" id="stock-modal-exact-input" class="form-control" min="0">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Reason for change:</label>
+        <input type="text" id="stock-modal-reason" class="form-control" value="Manual warehouse restock">
+      </div>
+
+      <button type="button" class="btn btn-primary btn-lg" id="btn-save-quick-stock" style="width: 100%; margin-top: 12px;">
+        Update Inventory Sets
+      </button>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="/js/i18n.js"></script>
+  <script src="/js/api.js"></script>
+  <script src="/js/admin.js"></script>
+</body>
+</html>

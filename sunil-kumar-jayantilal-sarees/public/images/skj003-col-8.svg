@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="100%" height="100%">
+    <defs>
+      <linearGradient id="bgGrad-4D7C0F" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#4D7C0F" stop-opacity="0.92"/>
+        <stop offset="100%" stop-color="#4D7C0F" stop-opacity="1.0"/>
+      </linearGradient>
+      <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+        <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.25"/>
+      </filter>
+    </defs>
+    <!-- Background Fabric Base -->
+    <rect width="600" height="750" fill="url(#bgGrad-4D7C0F)"/>
+    
+    <!-- Fabric Weave / Pattern -->
+    
+      <pattern id="floral-4D7C0F" width="40" height="40" patternUnits="userSpaceOnUse">
+        <circle cx="20" cy="20" r="4" fill="#B9975B" opacity="0.7"/>
+        <ellipse cx="20" cy="12" rx="3" ry="5" fill="#FFF" opacity="0.4"/>
+        <ellipse cx="20" cy="28" rx="3" ry="5" fill="#FFF" opacity="0.4"/>
+        <ellipse cx="12" cy="20" rx="5" ry="3" fill="#FFF" opacity="0.4"/>
+        <ellipse cx="28" cy="20" rx="5" ry="3" fill="#FFF" opacity="0.4"/>
+      </pattern>
+      <rect width="600" height="750" fill="url(#floral-4D7C0F)"/>
+    
+    
+    <!-- Decorative Pallu / Border Accent -->
+    <rect x="30" y="30" width="540" height="690" rx="8" fill="none" stroke="#B9975B" stroke-width="2" stroke-dasharray="6,4" opacity="0.6"/>
+    
+    <!-- Saree Fold Simulation Gradient -->
+    <rect x="0" y="0" width="140" height="750" fill="black" opacity="0.12"/>
+    <rect x="460" y="0" width="140" height="750" fill="black" opacity="0.08"/>
+
+    <!-- Wholesale Set Badge on Image -->
+    <g transform="translate(40, 50)" filter="url(#shadow)">
+      <rect width="180" height="38" rx="6" fill="#641E32"/>
+      <text x="90" y="24" fill="#FFF9F0" font-family="'Poppins', sans-serif" font-size="13" font-weight="700" text-anchor="middle">SKJ WHOLESALE</text>
+    </g>
+
+    <!-- Colour Pill Banner -->
+    <g transform="translate(40, 640)" filter="url(#shadow)">
+      <rect width="520" height="64" rx="8" fill="#FFF9F0" fill-opacity="0.95"/>
+      <circle cx="45" cy="32" r="18" fill="#4D7C0F" stroke="#B9975B" stroke-width="2"/>
+      <text x="80" y="28" fill="#292524" font-family="'Poppins', sans-serif" font-size="17" font-weight="700">SKJ003</text>
+      <text x="80" y="48" fill="#641E32" font-family="'Poppins', sans-serif" font-size="13" font-weight="600">Colour: Olive Mehendi Green • Wholesale Set Piece</text>
+    </g>
+  </svg>
